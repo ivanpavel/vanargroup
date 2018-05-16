@@ -1,0 +1,71 @@
+<script>
+
+  var friends = [];
+// dobavleaem v konets spiska dryzei
+for(var i = 1; i <= 3; i++){
+  friends.push(prompt("WHo is your friend"));
+}
+  console.log("you have" + friends.length + "friends!");
+  console.log(friends);
+
+// ==================================
+
+
+
+
+
+var friends = [];
+// dobavleaem v konets spiska dryzei
+for(var i = 1; i <= 3; i++){
+  var names = prompt("WHo is your friend");
+  if (name.length > 0){
+      friends.push(names);
+  }
+
+}
+console.log("you have" + " " + friends.length + " " + "friends!");
+console.log(friends);
+  
+
+
+
+
+
+
+// <!-- etot pravelinii -->
+var friends = [];
+
+// dobavleaem v konets spiska dryzei
+while(true){
+  var stop = prompt("number 1 or 2");
+  if(stop == '1'){
+    friends.push(prompt("WHo is your friend"));
+  }else if(stop == '2' || null || undefined || 'number'){
+    break;
+  }
+}
+  console.log("you have" + friends.lenght + "friends!");
+    console.log(friends);
+
+
+
+
+
+
+
+
+
+var phone = "022/322-122"
+
+result = phone.replace("/","").replace('-','');
+alert(result);
+
+
+var phone = "022/322-122"
+result = phone.substring('0','3') + phone.substring('4','7') + phone.substring('8','11');
+alert(result);
+
+
+
+
+</script>
